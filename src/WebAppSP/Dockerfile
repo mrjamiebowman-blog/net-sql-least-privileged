@@ -6,10 +6,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["../WebAppSP/WebAppSP.csproj", "../WebAppSP/"]
-RUN dotnet restore "../WebAppSP/WebAppSP.csproj"
+COPY ["src/WebAppSP/WebAppSP.csproj", "src/WebAppSP/"]
+RUN dotnet restore "src/WebAppSP/WebAppSP.csproj"
 COPY . .
-WORKDIR "/src/../WebAppSP"
+WORKDIR "/src/src/WebAppSP"
 RUN dotnet build "WebAppSP.csproj" -c Release -o /app/build
 
 FROM build AS publish
