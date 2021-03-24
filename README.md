@@ -1,2 +1,2 @@
-# net-sql-least-privileged
-Offensive .NET: Demonstration of Least Privileged Using Stored Procedures
+# Offensive .NET: Least Privileged (Entity Framework vs T-SQL Stored Procedures)
+
