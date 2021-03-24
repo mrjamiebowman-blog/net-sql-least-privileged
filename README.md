@@ -14,6 +14,7 @@ From there, we will aquire the SQL Server credentials and see what kind of malic
 * Remote Code Execution (RCE)
 * Remote Access to SQL Server Enabled
 * Running Container under Root
+* Not using a Linux distro like Alpine Linux which has significantly less software installed.
 
 ### Entity Framework
 Being that Entity Framework typically does CRUD operations and has the ability to view and manipulate tables (migration scripts) this will allow us the most capabilities to access, extract, and manipulate data.
