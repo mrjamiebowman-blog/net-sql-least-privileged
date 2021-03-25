@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using WebAppSP.Enums;
 
 namespace WebAppSP.Models
 {
@@ -16,6 +13,6 @@ namespace WebAppSP.Models
         /// <summary>
         /// A, B, C, D, F
         /// </summary>
-        public string Grade { get; set; }
+        public Grade? Grade { get; set; }
     }
 }

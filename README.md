@@ -12,6 +12,7 @@ From there, we will aquire the SQL Server credentials and see what kind of malic
 
 * Local File Inclusion (LFI)
 * Remote Code Execution (RCE)
+* Operating System (OS) Command Injection (Shell Injection)
 * Remote Access to SQL Server Enabled
 * Running Container under Root
 * Not using a Linux distro like Alpine Linux which has significantly less software installed.

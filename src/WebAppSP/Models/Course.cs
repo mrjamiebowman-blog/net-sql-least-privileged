@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebAppSP.Models
 {
-    public class SchoolClass
+    public class Course
     {
         public int? TenantId { get; set; }
 
