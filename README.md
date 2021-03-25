@@ -21,4 +21,4 @@ From there, we will aquire the SQL Server credentials and see what kind of malic
 Being that Entity Framework typically does CRUD operations and has the ability to view and manipulate tables (migration scripts) this will allow us the most capabilities to access, extract, and manipulate data.
 
 ### Stored Procedures (Dapper)
-Using Stored Procedures we will create a user that ONLY has execute permissions to the database. The stored procedure will also be designed around a multi-tiered database. The hacker will still be able to get data and manipulate data it will just be significantly more difficult. We will use the Dapper library to interface the stored procedures.
+While using Stored Procedures to interface our data we will create a SQL user that only has execute permissions to the Stored Procedures; thus limiting the abilities of a compromise. The stored procedure will also be designed around a multi-tiered database. The hacker will still be able to get data and manipulate data it will just be significantly more difficult. We will use the Dapper library to interface the stored procedures.
